@@ -1,0 +1,48 @@
+Questão 4:
+
+Simulação :
+
+linha 10 : programa lê a e b com os valores (2,3)
+linha 12,13 : inicializa x,y igual a 0
+linha 14 : laço while, que funciona enquanto a for diferente de 0
+linha 15 : incrementa x
+linha 16 : t inicializado com valor de 1
+linha 18 : laço for para calcular a potencia de base a e expoente b(não valida para b=0) 
+esse valor é atribuido a variavel t
+linha 21 : imprime o valor de t
+linha 22 : acrescenta a y o valor de t, logo y recebe um valor do somatório das potencias digi
+tadas.
+linha 23 : imprime o valor de y
+linha 25 : lê valores de a e b novamente
+linha 26 : imprime os valores de a e b
+linha 28 : ao sair do laço while imprime o valor de x que foi incrementado a cada interação do
+laço e representa o total de numeros do somatório
+linha 29 : retorna 0
+
+Valores testados :
+
+2 3
+5 2
+7 1
+0 5
+3 2
+
+Impressões : 
+
+linha 10 : a = 2, b = 3
+	Dentro do laço while
+	linha 21 : t = 8 (valor da potência)
+	linha 23 : y = 8 (valor do somatório)
+	linha 25 : a = 5, b = 2
+	linha 21 : t = 25 (valor da potência)
+	linha 23 : y = 33 (valor do somatório)
+	linha 25 : a = 7, b = 1
+	linha 21 : t = 7 (valor da potência)
+	linha 23 : y = 40 (valor do somatório)
+	linha 25 : a = 0, b = 5
+a = 0 então as entradas seguintes são ignoradas
+linha 28 : x = 3 (total de pares computados)
+
+Objetivo :
+
+O objetivo do programa é calcular o somatório de uma série de potências até que um valor de base 0 seja digitado.

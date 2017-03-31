@@ -1,0 +1,12 @@
+Na questão3 é possivel observar no código do principe alguns erros, que são
+enumerados a seguir:
+
+-linha 8 : Ele não coloca o & para denominar a posição da variavel num, logo ela
+não é passada por referência.
+-linha 14 : Ele está cometendo um erro de lógica, onde a variavel reverso deve ser
+dividida por 10 em vez de 100.
+-linha 18 : Ele usa o fator errado de comparação, essa linha será positiva toda vez 
+que num for diferente de zero, pois no c o resultado da operação será atribuido a
+expressão lógica. Com isso para que o programa funcione corretamente ele precisa
+utilizar a expressão lógica de diferença "!=" para que seu programa funcione 
+corretamente. 
